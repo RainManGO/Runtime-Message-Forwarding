@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "DeMaXiYa.h"
 @interface ViewController ()
 
 @end
@@ -17,8 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    DeMaXiYa * ZYDema =  [[DeMaXiYa alloc]init];
+    ZYDema.intro = @"德玛,上单,回血";
+    [ZYDema Q];
+    NSString * retunR = [ZYDema R];
+    NSLog(@"%@",retunR);
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

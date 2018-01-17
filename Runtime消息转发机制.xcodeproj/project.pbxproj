@@ -13,6 +13,8 @@
 		18B65FB01F17017E0001A7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B65FAF1F17017E0001A7F7 /* Assets.xcassets */; };
 		18B65FB31F17017E0001A7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B65FB11F17017E0001A7F7 /* LaunchScreen.storyboard */; };
 		18B65FB61F17017E0001A7F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B65FB51F17017E0001A7F7 /* main.m */; };
+		18B65FBF1F17026F0001A7F7 /* DeMaXiYa.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B65FBE1F17026F0001A7F7 /* DeMaXiYa.m */; };
+		18B65FC21F1702850001A7F7 /* HanBingSheShou.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B65FC11F1702850001A7F7 /* HanBingSheShou.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		18B65FB21F17017E0001A7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B65FB41F17017E0001A7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B65FB51F17017E0001A7F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B65FBD1F17026F0001A7F7 /* DeMaXiYa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeMaXiYa.h; sourceTree = "<group>"; };
+		18B65FBE1F17026F0001A7F7 /* DeMaXiYa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeMaXiYa.m; sourceTree = "<group>"; };
+		18B65FC01F1702850001A7F7 /* HanBingSheShou.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanBingSheShou.h; sourceTree = "<group>"; };
+		18B65FC11F1702850001A7F7 /* HanBingSheShou.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanBingSheShou.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		18B65FA51F17017E0001A7F7 /* Runtime消息转发机制 */ = {
 			isa = PBXGroup;
 			children = (
+				18B65FBC1F17019F0001A7F7 /* HeroModel */,
 				18B65FA61F17017E0001A7F7 /* AppDelegate.h */,
 				18B65FA71F17017E0001A7F7 /* AppDelegate.m */,
 				18B65FA91F17017E0001A7F7 /* ViewController.h */,
@@ -69,6 +76,17 @@
 				18B65FB51F17017E0001A7F7 /* main.m */,
 			);
 			path = "Runtime消息转发机制";
+			sourceTree = "<group>";
+		};
+		18B65FBC1F17019F0001A7F7 /* HeroModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B65FBD1F17026F0001A7F7 /* DeMaXiYa.h */,
+				18B65FBE1F17026F0001A7F7 /* DeMaXiYa.m */,
+				18B65FC01F1702850001A7F7 /* HanBingSheShou.h */,
+				18B65FC11F1702850001A7F7 /* HanBingSheShou.m */,
+			);
+			path = HeroModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B65FC21F1702850001A7F7 /* HanBingSheShou.m in Sources */,
 				18B65FAB1F17017E0001A7F7 /* ViewController.m in Sources */,
 				18B65FB61F17017E0001A7F7 /* main.m in Sources */,
 				18B65FA81F17017E0001A7F7 /* AppDelegate.m in Sources */,
+				18B65FBF1F17026F0001A7F7 /* DeMaXiYa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

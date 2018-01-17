@@ -9,5 +9,7 @@
 #import "HanBingSheShou.h"
 
 @implementation HanBingSheShou
-
+-(void)Q{
+    NSLog(@"寒冰射手：专注射击");
+}
 @end

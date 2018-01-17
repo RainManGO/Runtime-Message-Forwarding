@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface HanBingSheShou : NSObject
-
+-(void)Q;
 @end
